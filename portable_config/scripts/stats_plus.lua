@@ -1402,7 +1402,7 @@ mp.add_key_binding(nil, "display-stats", function() process_key_binding(true) en
     {repeatable=true})
 
 -- Toggling key binding
-mp.add_key_binding(nil, "display-stats-toggle", function() process_key_binding(false) end,
+mp.add_key_binding("i", "display-stats-toggle", function() process_key_binding(false) end,
     {repeatable=false})
 
 -- Single invocation bindings without key, can be used in input.conf to create
